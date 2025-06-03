@@ -63,7 +63,7 @@ header {
     padding: 10px;
     margin-left: 5px;
     border-radius: 10px;
-    display: none; /* Caché par défaut sur desktop */
+    display: block; /* Caché par défaut sur desktop */
 }
 
 /* Burger Menu Overlay */
@@ -616,7 +616,7 @@ footer {
 /* Pour les écrans plus grands que 768px (Tablettes et Desktops) */
 @media (min-width: 769px) {
     .burger-btn {
-        display: none; /* Cache le bouton burger sur les grands écrans */
+         
     }
 
     .burger-menu {
