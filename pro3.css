@@ -615,7 +615,7 @@ footer {
 
 /* Pour les écrans plus grands que 768px (Tablettes et Desktops) */
 @media (min-width: 769px) {
-    .burger-btn {
+    .burger-btn {display: block
          
     }
 
